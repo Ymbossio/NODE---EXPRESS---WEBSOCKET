@@ -1,12 +1,18 @@
 {
-  "name": "NODE + EXPRESS + WEBSOCKET",
+  "name": "NODE+EXPRESS+WEBSOCKET",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "node --watch ./server/Index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.19.2",
+    "morgan": "1.10.0"
+  }
 }
